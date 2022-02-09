@@ -1,0 +1,14 @@
+{
+  "name": "qr-code",
+  "version": "1.0.0",
+  "scripts": {
+    "watch-build": "npx tailwindcss -i ./src/tailwind.css ./index.html -o ./style/styles.css --watch"
+  },
+  "author": "Dylan",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss": "^8.4.6",
+    "prefixer": "0.0.3",
+    "tailwindcss": "^3.0.19"
+  }
+}
