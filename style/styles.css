@@ -478,25 +478,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin: 0.75rem;
 }
 
-.m-5{
-  margin: 1.25rem;
-}
-
-.mx-auto{
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.my-3{
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
-}
-
-.my-auto{
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
 .mt-0{
   margin-top: 0px;
 }
@@ -513,54 +494,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: table;
 }
 
-.h-screen{
-  height: 100vh;
-}
-
-.h-full{
-  height: 100%;
-}
-
 .max-h-fit{
   max-height: -webkit-fit-content;
   max-height: -moz-fit-content;
   max-height: fit-content;
 }
 
-.min-h-fit{
-  min-height: -webkit-fit-content;
-  min-height: -moz-fit-content;
-  min-height: fit-content;
-}
-
-.min-h-max{
-  min-height: -webkit-max-content;
-  min-height: -moz-max-content;
-  min-height: max-content;
-}
-
-.min-h-full{
-  min-height: 100%;
-}
-
-.w-screen{
-  width: 100vw;
-}
-
-.w-56{
-  width: 14rem;
-}
-
-.w-64{
-  width: 16rem;
-}
-
 .w-5\/6{
   width: 83.333333%;
-}
-
-.w-full{
-  width: 100%;
 }
 
 .border-collapse{
@@ -571,22 +512,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex-direction: column;
 }
 
-.items-center{
-  align-items: center;
-}
-
-.justify-center{
-  justify-content: center;
-}
-
-.gap-3{
-  gap: 0.75rem;
-}
-
-.rounded-lg{
-  border-radius: 0.5rem;
-}
-
 .rounded-xl{
   border-radius: 0.75rem;
 }
@@ -595,36 +520,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-width: 1px;
 }
 
-.bg-slate-200{
-  --tw-bg-opacity: 1;
-  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
-}
-
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
-}
-
-.bg-light-gray{
-  --tw-bg-opacity: 1;
-  background-color: hsl(212 45% 89% / var(--tw-bg-opacity));
-}
-
-.p-2{
-  padding: 0.5rem;
-}
-
-.p-3{
-  padding: 0.75rem;
-}
-
-.p-5{
-  padding: 1.25rem;
-}
-
-.px-5{
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
 }
 
 .text-center{
@@ -633,16 +531,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .font-\[\'Outfit\'\]{
   font-family: 'Outfit';
-}
-
-.text-xs{
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
-.text-xl{
-  font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 
 .text-lg{
@@ -657,10 +545,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .font-bold{
   font-weight: 700;
-}
-
-.font-medium{
-  font-weight: 500;
 }
 
 .font-normal{
@@ -685,19 +569,23 @@ Ensure the default browser behavior of the `hidden` attribute.
   outline-width: 4px;
 }
 
+body, html{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+body{
+  display: flex;
+  padding: 1.25rem;
+}
+
+html{
+  --tw-bg-opacity: 1;
+  background-color: hsl(212 45% 89% / var(--tw-bg-opacity));
+}
+
 @media (min-width: 640px){
-  .sm\:w-11\/12{
-    width: 91.666667%;
-  }
-
-  .sm\:w-5\/6{
-    width: 83.333333%;
-  }
-
-  .sm\:w-64{
-    width: 16rem;
-  }
-
   .sm\:w-72{
     width: 18rem;
   }
