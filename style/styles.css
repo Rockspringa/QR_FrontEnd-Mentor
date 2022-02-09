@@ -586,7 +586,7 @@ html{
 }
 
 @media (min-width: 640px){
-  .sm\:w-72{
-    width: 18rem;
+  .sm\:w-80{
+    width: 20rem;
   }
 }
